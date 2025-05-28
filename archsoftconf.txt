@@ -6,4 +6,4 @@ cd yay
 makepkg -si
 yay -S google-chrome yandex-browser tradingview chia-bin electron-deepseek portproton stacer-bin
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Snowy-Fluffy/zapret.installer/refs/heads/main/installer.sh)"
-
+https://github.com/romanvht/ByeDPIAndroid/releases
