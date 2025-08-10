@@ -1,9 +1,7 @@
 #!/bin/bash
 
 sudo pacman -S steam discord chromium deluge-gtk telegram-desktop htop celluloid audacious fish kitty pkgfile ttf-dejavu powerline-fonts inetutils fastfetch ttf-font-awesome otf-font-awesome ttf-jetbrains-mono vim nano libreoffice-still libreoffice-still-ru
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 yay -S google-chrome yandex-browser tradingview chia-bin electron-deepseek portproton stacer-bin
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Snowy-Fluffy/zapret.installer/refs/heads/main/installer.sh)"
 https://github.com/romanvht/ByeDPIAndroid/releases
